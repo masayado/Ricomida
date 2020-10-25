@@ -6,3 +6,11 @@
 h1, h2, h3, h4, h5{
     font-family: 'Cabin', sans-serif;
 }
+
+@media (min-width: 978px) {
+    .main-content {
+        line-height: 1.6;
+        padding-top: 15px;
+    }   
+}
+
