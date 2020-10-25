@@ -3,14 +3,26 @@
     font-size: 37px;
 }
 
-h1, h2, h3, h4, h5{
+h1, h2, h3, h4, p{
     font-family: 'Cabin', sans-serif;
+}
+
+h5{
+    font-family: 'Cabin', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.underline{
+    border-bottom: 1.5px solid #000;
+    padding-bottom: 10px;
+    display: inline-block;
 }
 
 @media (min-width: 978px) {
     .main-content {
         line-height: 1.6;
-        padding-top: 15px;
+        padding-top: 12px;
     }   
 }
 
